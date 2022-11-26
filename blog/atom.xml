@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.snipse.com/blog</id>
-    <title>My Site Blog</title>
+    <title>My Site title in config file Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.snipse.com/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>My Site title in config file Blog</subtitle>
     <icon>https://blog.snipse.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
@@ -58,8 +58,8 @@
         <id>first-blog-post</id>
         <link href="https://blog.snipse.com/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ASDPAOSDPA LASD ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>ASDPAOSDPA LASD ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <summary type="html"><![CDATA[Ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
         <author>
             <name>Gao Wei</name>
             <uri>https://github.com/wgao19</uri>
