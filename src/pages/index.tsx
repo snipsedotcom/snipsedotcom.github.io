@@ -15,11 +15,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          {/* <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+            Docusaurus Tutorial - 500 min ⏱️
+          </Link> */}
         </div>
       </div>
     </header>
@@ -34,6 +34,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+      {/* <h1 className="purple-text">Purple Heading!</h1> */}
         <HomepageFeatures />
       </main>
     </Layout>

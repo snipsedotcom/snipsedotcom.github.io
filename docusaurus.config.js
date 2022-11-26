@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'My Site title in config file',
+  tagline: 'Dinosaurs are cool in config file',
   url: 'https://blog.snipse.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -37,27 +37,41 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/snipsedotcom/snipsedotcom.github.io',
+            'https://github.com/snipsedotcom/snipsedotcom.github.io/edit/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/snipsedotcom/snipsedotcom.github.io',
+            'https://github.com/snipsedotcom/snipsedotcom.github.io/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
+
+    [
+      'redocusaurus',
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          {
+            spec: 'https://redocly.github.io/redoc/openapi.yaml',
+            route: '/api/',
+          },
+        ],
+      },
+    ],
+
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'My Site in navbar config',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -67,11 +81,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorial in conf',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog asd', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/snipsedotcom/snipsedotcom.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -120,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project in config.js, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
