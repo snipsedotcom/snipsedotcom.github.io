@@ -15,11 +15,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          {/* <Link
+          <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 500 min ⏱️
-          </Link> */}
+            to="https://snipse.notion.site/Building-quickly-af8df63ba9f447d3aeee8a6359f605fc">
+            Experimental
+          </Link>
         </div>
       </div>
     </header>

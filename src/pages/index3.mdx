@@ -1,0 +1,35 @@
+---
+sidebar_position: 4
+---
+
+# Markdown Features
+
+Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+
+import {year} from './data.js'
+export const asdasdpl = 'world'
+
+# Hello {asdasdpl.toUpperCase()}
+
+
+
+export const Year = () => (<span> {year} {asdasdpl.toUpperCase()} </span>);
+
+export const Content = ({content}) => (<span> {content} </span>);
+
+This is <Year/> !
+
+This is <Content content = {year }/> !
+
+
+The current year is ${year}
+Two 🍰 is: {Math.PI * 2}
+Two 🍰 is: <Content content = {Math.PI * 2}/> !
+
+
+This is <Content content = {year }/> !
+
+
+export const Thing = () => <>{asdasdpl.toUpperCase()}</>
+
+# Hello <Thing />
